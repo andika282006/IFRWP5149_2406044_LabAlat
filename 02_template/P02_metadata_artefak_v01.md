@@ -7,5 +7,5 @@ Kakas             : drawio
 Pembuat           : Andika Rahman-2406044
 Versi dan tanggal : v01, 09-10-2026
 Asumsi/pertanyaan : Hak akses sesuai; autentikasi di luar latihan 
-Pemeriksaan       : [hasil review] 
-Riwayat revisi    : [perubahan yang benar-benar dilakukan]
+Pemeriksaan       : Ditemukan kesalahan: bentuk fungsi menggunakan kotak, bukan elips.
+Riwayat revisi    : Mengubah kotak "Lihat ketersediaan peralatan" dan "Kelola data peralatan" menjadi bentuk elips standar UML.

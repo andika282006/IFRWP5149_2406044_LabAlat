@@ -6,8 +6,7 @@ melihat jadwal sebagai pengguna mahasiswa.
 
 | No. |    Temuan           | Perbaikan yang diperlukan                            
 |-----|---------------------|------------------------------
-|  1  | Aktor Mahasiswa     | Pindahkan aktor Mahasiswa
-                            ke luar batas sistem
+|  1  | Aktor Mahasiswa     | Pindahkan aktor Mahasiswa ke luar batas sistem
 |     | diletakkan di dalam|| 
 |     | batas sistem        |    
 |---------------------------|
