@@ -26,4 +26,29 @@ dan memberikan catatan keputusan.
 • KRS tersimpan belum berarti disetujui.
 • Pembayaran, pengisian nilai, dan implementasi basis data berada di luar
 tugas.
-<!--  -->
+
+<!-- tabel identifikasi aktor  -->
+|  Aktor       |                 Tujuan terhadap sistem             |
+|--------------|----------------------------------------------------|
+|Mahasiswa     | Mengajukan KRS dan mengunduh bukti pengajuan       |
+|Dosen wali    | Memproses persetujuan atau penolakan KRS           |
+
+<!-- katalog use case -->
+|   ID   |  Nama  |   use   |          case Peran dalam model            |
+|--------|--------|---------|--------------------------------------------|
+|SIA-UC01| Lihat  | jadwal  |       kuliah Fungsi utama mahasiswa        |
+|SIA-UC02| Kelola | jadwal  |    kuliah Fungsi utama admin akademik      |
+|SIA-UC03| Ajukan |   KRS   |          Fungsi utama mahasiswa            |
+|SIA-UC04|Validasi|   KRS   |       Perilaku yang disertakan UC03        |
+|SIA-UC05| Unduh  |  bukti  |pengajuan KRS Tambahan bersyarat pada UC03  |
+|SIA-UC06| Proses |keputusan|        KRS Fungsi utama dosen wali         |
+
+<!-- relasi include -->
+SIA-UC03 «include» SIA-UC04
+Alasan: Validasi KRS menjadi bagian wajib yang harus dilalui pada saat pengajuan KRS.
+
+<!-- relasi extend -->
+SIA-UC05 «extend» SIA-UC03
+Extension point: Konfirmasi penyimpanan tersedia.
+Kondisi: [mahasiswa memilih mengunduh bukti].
+Alasan: Pengajuan KRS tetap berhasil tersimpan meskipun mahasiswa tidak mengunduh bukti.
