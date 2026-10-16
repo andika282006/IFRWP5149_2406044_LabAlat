@@ -7,17 +7,5 @@ melihat jadwal sebagai pengguna mahasiswa.
 | No. |    Temuan           | Perbaikan yang diperlukan                            
 |-----|---------------------|------------------------------
 |  1  | Aktor Mahasiswa     | Pindahkan aktor Mahasiswa ke luar batas sistem
-|     | diletakkan di dalam|| 
+|     | diletakkan di dalam|| fdtdtd
 |     | batas sistem        |    
-|---------------------------|
-|  2  | Fungsi Lihat jadwal |
-|     | kuliah digambar     |
-|     | sebagai kotak biasa |  
-|---------------------------|
-|  3  | Aktor Mahasiswa     |
-|     | dihubungkan dengan  | 
-|     | Kelola jadwal kuliah| 
-|---------------------------|
-|  4  | Identitas diagram   |
-|     | menggunakan judul   |
-|     | sistem laboratorium | 
